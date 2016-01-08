@@ -56,6 +56,7 @@
                     <navigationItem key="navigationItem" id="yjA-fw-GMy"/>
                     <connections>
                         <outlet property="map" destination="ZjX-cE-YRA" id="Iar-jj-9HW"/>
+                        <segue destination="c0S-DX-3X8" kind="presentation" identifier="flickrSegue" id="UHz-11-0sN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

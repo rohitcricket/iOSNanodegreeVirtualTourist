@@ -33,6 +33,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         map.setRegion(region, animated: true)
         
+        
         // add map location and pin
         
         let disneyland = MKPointAnnotation()
@@ -40,6 +41,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
         disneyland.title = "The Happiest Place in the World!"
         map.addAnnotation(disneyland)
         
+        // add button to annotation
+        
+        let annotationView = MKAnnotationView()
+        let detailButton: UIButton = UIButton(type: UIButtonType.DetailDisclosure) as UIButton
+        annotationView.rightCalloutAccessoryView = detailButton
         
 
     }
